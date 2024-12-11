@@ -7,7 +7,6 @@ for j in range(len(grid)):
         if grid[j][i] == "0":
             starting_points.append((i, j))
 
-# q1
 total_points = 0
 for i, j in starting_points:
     current_point = 0
@@ -15,7 +14,7 @@ for i, j in starting_points:
     visited = []
     while len(q) > 0:
         (x, y), n = q.pop(0)
-        # print(q)
+        # comment this part out for this for q2
         # if (x, y) in visited:
         #     continue
         # visited.append((x, y))
